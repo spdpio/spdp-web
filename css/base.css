@@ -3,6 +3,25 @@ body {
   letter-spacing: .25px;
 }
 
+.card-inverse .card-text {
+  color: rgba(255,255,255,.95);
+  font-weight: 400;
+}
+
+
+a.github-icon {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAMAAACqEUSYAAAAUVBMVEVMaXH////////////////////////////////////////////////////////////////////////////////////////////////////////JzkR1AAAAGnRSTlMAcwiaz+0f8/w9pFCKGawNZ7XfRl/BJgMzlLtDXTIAAAEMSURBVBgZZcEJYoIwFEXRByQkYZ6Vu/+F9oPWCj1H+rVl4xSid9XS625e+Qh7q2/5zoWv9ad03DUPvZWe/zq95A5i4JsHMp12oHqkDogBCE3bR4hJJmEySSn10qOsW0kOmGQqTKYrh5mlNmJ2XQXMKGWY+NRVg4mtRkyhm9xjZk2YRXcrZlDAJN3tmEYRU+uuwxTymEx3DtPIYSrd5AGTqcDETVcDh6SFw9jr29NjYq4+QAD31Ec+BA6VpAK/1QFck3TIKs9LktQG/DZHYNOh4a3TYYBVtZsKnRIvodWpgkUfJac46yUfidVSzzqVHOKgX48Cs+pUYkKtL/UEq04lMJa6yAe369RPXdLbD1HfIb/LPIlDAAAAAElFTkSuQmCC);
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+  text-indent: -1000px;
+  overflow: hidden;
+  float: right;
+  text-decoration: none;
+}
+
 .button {
   background: #884499;
   color: #fafafa;

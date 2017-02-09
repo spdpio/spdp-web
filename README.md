@@ -1,7 +1,3 @@
-# gatsby-starter-default
-The default Gatsby starter
+# spdp.io
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+Gatsby site for spdp.io.

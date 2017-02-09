@@ -44,12 +44,12 @@ module.exports = React.createClass({
             <Grid columns={12} style={{padding: `${rhythm(1/2)} 0`}}>
               {/* Ugly hack. How better to constrain height of div?*/}
               <Span columns={3} style={{height: 24}} >
-                <Link to={prefixLink('/')} style={{textDecoration: 'none', color: header.fg, fontSize: adjustFontSizeTo("21px").fontSize}}>
+                <Link to={prefixLink('/')} style={{textDecoration: 'none', fontFamily: 'Montserrat', color: header.fg, fontSize: adjustFontSizeTo("21px").fontSize}}>
                   {config.siteTitle}
                 </Link>
               </Span>
               <Span columns={9} last={true}>
-                <a style={{float: 'right', color: header.fg, textDecoration: 'none', marginLeft: rhythm(1/2)}} href="https://github.com/spdpio">
+                <a className="github-icon" style={{color: header.fg, marginLeft: rhythm(1/2)}} target="_blank" href="https://github.com/spdpio">
                   Github
                 </a>
                 {/*<Link to={prefixLink('/about/')} style={Object.assign(color(aboutActive), linkBase)}>
@@ -68,6 +68,21 @@ module.exports = React.createClass({
         <Container style={{maxWidth: 960, padding: `${rhythm(1)} ${rhythm(1/2)}`, paddingTop: 0}}>
           {this.props.children}
         </Container>
+        <div style={{background: header.bg, color: header.fg}}>
+          <Container style={{maxWidth: 960, padding: `0 ${rhythm(1/2)}`}}>
+            <Grid columns={12} style={{padding: `${rhythm(1/2)} 0`}}>
+              <Span columns={3} style={{height: 24}} >
+                <Link to={prefixLink('/')} style={{textDecoration: 'none', color: header.fg, fontSize: adjustFontSizeTo("21px").fontSize}}>
+                </Link>
+              </Span>
+              <Span columns={9} last={true}>
+                <span style={{float: 'right', color: header.fg, textDecoration: 'none', marginLeft: rhythm(1/2)}}>
+                  Powered by <a href="https://github.com/gatsbyjs/gatsby" style={{color: header.fg}}>Gatsby</a>
+                </span>
+              </Span>
+            </Grid>
+          </Container>
+        </div>
       </div>
     );
   }
