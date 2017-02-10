@@ -1,11 +1,3 @@
-<script type="text/javascript">
-  window.onload = function() {
-    console.log(blah)
-    console.log($("#inputEmail"))
-  };
-</script>
-
-
 <div class="card p-2 card-inverse" style="background-color: #333; border-color: #333; color: #eee">
   <div class="card-block">
     <h3 class="card-title">[wip] A side project development platform</h3>
@@ -28,7 +20,7 @@
 	</li>
 	<li>
 		<img src="./money.png" alt="money">
-		<h2>$$$ != #winning</h2>
+		<h2>$$$ <b>≠</b> #winning</h2>
 		Some projects make money, some don't! We're committed to supporting great ideas, not just profitable ones.
 	</li>
 </ul>
