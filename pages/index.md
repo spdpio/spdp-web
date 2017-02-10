@@ -36,7 +36,7 @@
 
 # Collaborative, open project development
 
-<span style="font-weight: 400;">Sometimes, all you need is GitHub; sometimes, you wish you had free infrastructure and an operations team.</span> spdp is a community of developers committed to provide a platform for experimentation for SaaS-like side projects.
+<span style="font-weight: 400;">Sometimes, all you need is GitHub; sometimes, you wish you had free infrastructure and an operations team.</span> spdp is a community of developers committed to providing a platform for experimentation for SaaS-like side projects.
 
 ## Features
 
